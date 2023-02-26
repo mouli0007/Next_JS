@@ -1,6 +1,21 @@
 import axios from "axios";
 import React from "react";
 
+########### IMPORTANT ##############
+
+What is difference between getStaticProps and getServerSideProps?
+
+###
+getStaticProps(): A method that tells the Next component to populate props 
+and render into a static HTML page at build time 
+
+#####
+getServerSideProps(): A method that tells the Next component to populate the props 
+and render into a static HTML page at run time.
+
+########### IMPORTANT ##############
+
+
 const CoinList = ({ coinData }) => {
   const coins_data = coinData.coins;
 
