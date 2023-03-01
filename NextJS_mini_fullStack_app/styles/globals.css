@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  color: #fff;
+}
+
+.link_ {
+  display: inline-block;
+  background-color: tomato;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
