@@ -35,35 +35,4 @@ next js => It Pre renders the page and
 		  1 Static Generation => all the pages are pre rendered during the build time
 		                   Pre-generate a page with the data prepared in the server side during the build time
 						   
-						   export async function getStaticProps(){
-						   
-						   // Server Side Code
-						   // No Client Side Code
-						   // No access to wiindow object
-						   }
-		  ##################
-		  #########################
-		  
-		    
-		  ######## Incremental Static generation ###############
-		  
-		  Pre-Generated page ==> 
-		  Re-Generate it on every request at most  every X seconds
-		   A New Pregenerated page will shown to the visitor with the updated data
-		  
-		  
-		  ########### Synatx #############
-		  return {
-				props: {
-				products: data.products,
-					},
-
-					// it willl regenerate for every 60 sec
-					revalidate: 60,
-					};
-		  
-		  ###############################
-		  ###########################
-		  
-		  2 Server Side Rendering => pages are created at the request time or run time when a request reached the server
-	
+			2 Server Side Rendering => pages are created at the request time or run time when a request reached the server
